@@ -1,0 +1,36 @@
+.pagination{
+    width:400px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+@media (max-width:540px){
+    .pagination{
+        width: 100%;
+    }
+}
+.pagination button{
+  background-color: rgb(37, 37, 255);
+  color: #fff;
+  border: none;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pagination p{
+    color: #fff;
+    cursor: default;
+    width: 25px;
+   text-align: center;
+}
+.selected{
+    background-color: rgb(37, 37, 255);
+    border-radius: 10px;
+}
+button.disable{
+    opacity: .3;
+    cursor:auto
+}
